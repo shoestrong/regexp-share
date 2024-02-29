@@ -1,0 +1,39 @@
+
+code.block {
+  background-color: rgba(255,255,255,.1);
+  border-radius: 5px;
+  padding: 0 5px;
+  margin: 0 5px;
+}
+
+.reveal {
+  font-size: 30px;
+}
+
+.reveal table, .reveal table td, .reveal table th {
+  border: 1px solid;
+}
+
+
+.font14 {
+  font-size: 14px !important;
+}
+
+.font18 {
+  font-size: 18px !important;
+}
+
+.font20 {
+  font-size: 20px !important;
+}
+
+.font24 {
+  font-size: 24px !important;
+}
+
+.list {
+  display: flex;
+}
+.list > div {
+  flex: 1;
+}
