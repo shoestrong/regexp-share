@@ -445,7 +445,7 @@
 						</ul>
 						<div data-markdown>
 							```js:line-numbers
-							var reg = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[\d(a-z)(A-Z)]{6,16}$/
+							var reg = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[\da-zA-Z]{6,16}$/
 							console.log(reg.test('233Abcd')) // true
 							console.log(reg.test('2_3abcd')) // false
 							```
